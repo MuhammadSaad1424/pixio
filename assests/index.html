@@ -1,0 +1,889 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!--------------------------------------- Required meta tags --------------------------------------->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--------------------------------------- Bootstrap CSS --------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--------------------------------------- font family cdn  --------------------------------------->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+  <!--------------------- css link  --------------------->
+  <link rel="stylesheet" href="/assests/css/style.css">
+
+  <!---- fontawesom cdn  ----->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!---------------- OWL Carousal CDN -------------->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <title>PIXIO</title>
+
+</head>
+
+<body>
+
+
+  <!--------------------------------------- nav bar started --------------------------------------->
+  <div class="nav-bar">
+    <section class="d-lg-block d-none">
+      <nav class="bg-yellow">
+        <div class="container">
+          <div class="row align-items-center text-end justify-content-between py-3">
+            <div class="col-3">
+              <div class="nav-log">
+                <img src="/assests/images/logo.svg" alt="">
+              </div>
+            </div>
+            <div class="col-9 d-none d-lg-block ">
+              <div class="d-flex">
+                <div class="bg-white d-flex py-2 px-2 rounded-3 align-items-center">
+                  <div class="dropdown d-flex justify-content-between">
+                    <button
+                      class="d-flex justify-content-between align-items-center gap-5 bg-transparent border-0  dropdown-toggle"
+                      type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      All categories
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav-input">
+                    <input type="text" class="form-control bg-transparent border-0 border-start"
+                      placeholder="Search Your Products">
+                  </div>
+                  <div class="">
+                    <button class="bg-transparent text-danger fs-3 border-0"> <i class="fa fa-search"
+                        aria-hidden="true"></i></button>
+                  </div>
+                </div>
+                <div class="d-flex gap-2 justify-content-center align-items-center">
+                  <div class="nav-chat-bot-logo">
+                    <img src="/assests/images/chat-bot.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="">
+                    <p class="m-0">24/7 Support</p>
+                    <h5 class="fw-bold">+923051424517</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-lg-none d-block">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="bg-yellow py-3">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-3">
+            <a class="navbar-brand" href="#">
+              <img src="/assests/images/logo.svg" alt="">
+            </a>
+          </div>
+          <div class="col-6 d-lg-block d-md-none d-none">
+            <ul class="d-flex  gap-5 me-auto mb-2 mb-lg-0">
+              <li class="list-unstyled text-decoration-none">
+                <a class="text-dark text-decoration-none nav-title-icons d-flex gap-1 align-items-center"
+                  aria-current="page" href="#">Home
+                  <img src="/assests/images/sparkler.png" class="img-fluid" alt="">
+                </a>
+              </li>
+              <li class="list-unstyled text-decoration-none">
+                <a class="text-dark text-decoration-none nav-title-icons d-flex gap-1 align-items-center" href="#">Shop
+                  <img src="/assests/images/sparkler.png" alt="">
+                </a>
+              </li>
+              <li class="list-unstyled text-decoration-none">
+                <a class="text-dark text-decoration-none nav-title-icons d-flex gap-1 align-items-center" href="#">Blog
+                  <img src="/assests/images/sparkler.png" alt="">
+                </a>
+              </li>
+              <li class="list-unstyled text-decoration-none">
+                <a class="text-dark text-decoration-none nav-title-icons d-flex gap-1 align-items-center"
+                  href="#">Contact
+                  <img src="/assests/images/sparkler.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3 d-lg-block d-md-none d-none">
+            <ul class="d-flex gap-4 align-items-center justify-content-center text-center me-auto mb-2 mb-lg-0">
+              <li class="list-unstyled">
+                <a class=" text-dark" aria-current="page" href="#">Login / Register
+              </li>
+              <li class="list-unstyled">
+                <a class="text-dark fs-4" href="#">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+              </li>
+              <li class="list-unstyled">
+                <a class="text-dark fs-4" href="#">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-unstyled">
+                <a class="text-dark fs-4" href="#">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-2 col-md-1 d-sm-block d-lg-none d-md-block">
+            <a href="" class="text-dark"><i class="fa fa-bars fs-2" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!--------------------------------------- nav bar ended --------------------------------------->
+
+
+  <!---------------------------- hero section started ---------------------------->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="hero-heading mt-5">
+            <h1>Make Your <br class="d-lg-block d-none"> Fashion Look <br class="d-lg-block d-none"> Mire Charming</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-6">
+              <p class="fontweight-600">Price</p>
+              <h1 class="fontweight-700">$168</h1>
+            </div>
+            <div class="col-lg-4 col-6">
+              <p class="fontweight-600">Select Size</p>
+              <div class="d-flex gap-3">
+                <div
+                  class="border size-box  border-dark rounded-circle d-flex justify-content-center align-items-center text-center ">
+                  <p class="m-0 p-0">S</p>
+                </div>
+                <div
+                  class="border size-box  border-dark rounded-circle d-flex justify-content-center align-items-center text-center">
+                  <p class="m-0 p-0">M</p>
+                </div>
+                <div
+                  class="border size-box  border-dark rounded-circle d-flex justify-content-center align-items-center text-center">
+                  <p class="m-0 p-0">L</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------ support and cart area started ------------------------>
+          <section class="support-section position-fixed">
+            <a href="" class="text-decoration-none text-dark">
+              <div class="support">
+                <div class="customer-support d-flex justify-content-center align-items-center">
+                  <img src="/assests/images/customer-care.png" alt="">
+                  <h5 class="customer-support-txt">Support</h5>
+                </div>
+              </div>
+            </a>
+            <a href="" class="text-decoration-none text-dark">
+              <div class="cart">
+                <div class="customer-cart d-flex gap-2 justify-content-center align-items-center text-center">
+                  <img src="/assests/images/shopping-cart.png" alt="" class="img-fluid">
+                  <h5 class="customer-cart-support-txt">Support</h5>
+                </div>
+              </div>
+            </a>
+          </section>
+          <!------------------------ support and cart area ended ------------------------>
+          <div class="row mt-5">
+            <div class="col-lg-3 col-md-6 col-6">
+              <div class="hero-btns">
+                <a class='btn-job' href=''>
+                  <span class=""></span>
+                  <button class="">ADD TO CART</button>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+              <div class="hero-btns-1">
+                <a class='btn-job-1' href=''>
+                  <span class=""></span>
+                  <button class="border-1 border-dark ">View details</button>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 d-lg-block d-none">
+              <div class="circle-container">
+                <a href="">
+                  <div class="text-on-circle text-dark ">
+                    <span>M</span>
+                    <span>O</span>
+                    <span>R</span>
+                    <span>E</span>
+                    <span> </span>
+                    <span>C</span>
+                    <span>O</span>
+                    <span>L</span>
+                    <span>L</span>
+                    <span>E</span>
+                    <span>C</span>
+                    <span>T</span>
+                    <span>I</span>
+                    <span>O</span>
+                    <span>N</span>
+                    <span> </span>
+                    <span>E</span>
+                    <span>X</span>
+                    <span>P</span>
+                    <span>L</span>
+                    <span>O</span>
+                    <span>R</span>
+                    <span>E</span>
+                    <span></span>
+                    <span></span>
+                    <i class="fa fa-youtube-play ffff" aria-hidden="true"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="mt-5 position-relative banner-media">
+              <img src="/assests/images/banner-media.png" alt="" class="img-fluid">
+              <div class="position-absolute rotating-sparkler">
+                <div class="media-banner-sparkler">
+                  <img src="/assests/images/sparkle.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------- hero section ended ---------------------------->
+
+
+
+
+  <!------------------------------------- tendy and classic area started ------------------------------------->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="d-flex gap-4 align-items-center">
+          <div class="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76" fill="none">
+              <path
+                d="M52.6617 37.6496L58.7381 40.0325L75.0609 49.0874L66.6016 63.7422L49.9214 54.6872L45.1557 50.7554L46.1088 57.1892V75.18H28.952V57.1892L30.0243 50.5171L24.9011 54.6872L8.45924 63.7422L0 49.0874L16.3228 39.7942L22.3991 37.6496L16.3228 35.1475L0 26.2117L8.45924 11.557L25.1394 20.4928L30.0243 24.6629L28.952 18.3482V0H46.1088V18.3482L45.1557 24.4246L49.9214 20.4928L66.6016 11.557L75.0609 26.2117L58.7381 35.3858L52.6617 37.6496Z"
+                fill="black"></path>
+            </svg>
+          </div>
+          <div class="">
+            <p>Summer Collection</p>
+            <h5>TRENDY AND CLASSIC <br> FOR THE NEW SEASON</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------------------------------- tendy and classic area ended ------------------------------------->
+
+
+  <!--------------------------- features categories started --------------------------->
+  <section class="">
+    <div class="features d-lg-flex my-5">
+      <div class="yellow">
+        <div class="ms-4 ">
+          <img src="/assests/images/download.svg" alt="" class="img-fluid">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="owl-carousal-widht">
+              <div class="px-md-5 px-lg-5 px-0 owl-carousel owl-theme py-md-5 py-lg-5 py-0">
+                <div class="item">
+                  <div class="feature-owl-carousal-pic">
+                    <img src="/assests/images/2.png" alt="" class="img-fluid">
+                    <div class="mt-5 text-center">
+                      <a href=""
+                        class="text-decoration-none bg-white text-dark border border-dark rounded rounded-pill border-1 px-4 py-2">Shorts</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="feature-owl-carousal-pic">
+                    <img src="/assests/images/2.png" alt="" class="img-fluid">
+                    <div class="mt-5 text-center">
+                      <a href=""
+                        class="text-decoration-none bg-white text-dark border border-dark rounded rounded-pill border-1 px-4 py-2">Shorts</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="feature-owl-carousal-pic">
+                    <img src="/assests/images/3.png" alt="" class="img-fluid">
+                    <div class="mt-5 text-center">
+                      <a href=""
+                        class="text-decoration-none bg-white text-dark border border-dark rounded rounded-pill border-1 px-4 py-2">T-shirt</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="feature-owl-carousal-pic">
+                    <img src="/assests/images/1.png" alt="" class="img-fluid">
+                    <div class="mt-5 text-center">
+                      <a href=""
+                        class="text-decoration-none bg-white text-dark border border-dark rounded rounded-pill border-1 px-4 py-2">T-jeans</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="feature-owl-carousal-pic">
+                    <img src="/assests/images/1.png" alt="" class="img-fluid">
+                    <div class="mt-5 text-center">
+                      <a href=""
+                        class="text-decoration-none bg-white text-dark border border-dark rounded rounded-pill border-1 px-4 py-2">Shirts</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="black text-white">
+        <div class="featured-categories-txt">
+          <h1>Features <br> Categories</h1>
+          <p class="discover-trending">Discover the most trending <br> products in pixio </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------------------- features categories ended --------------------------->
+
+  <!----------------------------------- wardrobe section started ----------------------------------->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="position-relative">
+            <img src="/assests/images/Untitled design.png" alt="" class="img-fluid">
+            <div class="position-absolute wardrobe-btn">
+              <div class="hero-btns-2">
+                <a class='btn-job-1' href=''>
+                  <span class=""></span>
+                  <button class="border-1 border-dark ">Women Collection</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="  col-lg-6 col-12">
+          <div class="mt-5">
+            <div class="row">
+              <div class="col-9">
+                <h1 class="wardrobe-txt lette">Set Your Wardrobe With Our Amazing Selection!</h1>
+              </div>
+              <div class="col-3">
+                <div class="arrow-top-right-section">
+                  <div class="rounded rounded-circle d-flex justify-content-center align-items-center arrow-top-right">
+                    <img src="/assests/images/top-right.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="my-3">
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis repellendus cumque quis officia!
+              Voluptas ut tenetur, corporis aut a similique molestias! Possimus incidunt illum ex nobis nisi dolorum
+              unde corporis?</h5>
+          </div>
+          <div class="">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mt-5 child-fashion position-relative">
+                  <img src="/assests/images/1 (1).png" alt="" class="img-fluid">
+                  <div class="">
+                    <div class="hero-btns-3 position-absolute">
+                      <a class='btn-job-1' href=''>
+                        <span class=""></span>
+                        <button class="border-1 border-dark child-fashion-btn">Child Fashion</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mt-5 child-fashion position-relative">
+                  <img src="/assests/images/2 (1).png" alt="" class="img-fluid">
+                  <div class="">
+                    <div class="hero-btns-4 position-absolute">
+                      <a class='btn-job-1' href=''>
+                        <span class=""></span>
+                        <button class="border-1 border-dark child-fashion-btn">MAN COLlection</button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!----------------------------------- wardrobe section ended ----------------------------------->
+
+  <!------------------------------------ most popular products area started  ------------------------------------>
+  <section class="my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-8 col-12">
+          <h1>Most Popular Products</h1>
+        </div>
+        <div class="col-md-6 col-lg-4 col-12 d-flex justify-content-center align-items-center">
+          <div class="nav nav-tabs border-bottom-0 ">
+            <div class="border rounded rounded-pill d-flex gap-md-4 gap-lg-4 gap-0 p-2">
+              <button class="bg-transparent border-0" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+                role="tab">All</button>
+              <button class="bg-transparent border-0" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+                role="tab">Dresses</button>
+              <button class="bg-transparent border-0" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
+                role="tab">Tops</button>
+              <button class="bg-transparent border-0" data-bs-toggle="tab" data-bs-target="#nav-outware" type="button"
+                role="tab">Outware</button>
+              <button class="bg-transparent border-0" data-bs-toggle="tab" data-bs-target="#nav-Jacket" type="button"
+                role="tab">Jacket</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="row">
+              <div class="col-md-6 col-lg-3 col-12 my-4">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                  <div class="popular-products-pic">
+                    <img src="/assests/images/banner-media.png" alt="" class="img-fluid">
+                    <div class="popular-pic-btn">
+                      <button
+                        class=" bg-dark text-white rounded rounded-pill border border-5 px-4 py-2 border-white">Quick
+                        View</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <h5>Cozy Knit Cardigan Sweater</h5>
+                      </div>
+                      <div class="col-2">
+                        <h5>80$</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-absolute">
+                    <p class="rounded rounded-pill bg-white py-1 px-2 get-off">Get 20% off</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 col-12 my-4">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                  <div class="popular-products-pic">
+                    <img src="/assests/images/2 (2).png" alt="" class="img-fluid">
+                    <div class="popular-pic-btn">
+                      <button
+                        class=" bg-dark text-white rounded rounded-pill border border-5 px-4 py-2 border-white">Quick
+                        View</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <h5>Cozy Knit Cardigan Sweater</h5>
+                      </div>
+                      <div class="col-2">
+                        <h5>80$</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-absolute">
+                    <p class="rounded rounded-pill bg-white py-1 px-2 get-off">Get 20% off</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 col-12 my-4">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                  <div class="popular-products-pic">
+                    <img src="/assests/images/4 (1).png" alt="" class="img-fluid">
+                    <div class="popular-pic-btn">
+                      <button
+                        class=" bg-dark text-white rounded rounded-pill border border-5 px-4 py-2 border-white">Quick
+                        View</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <h5>Cozy Knit Cardigan Sweater</h5>
+                      </div>
+                      <div class="col-2">
+                        <h5>80$</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-absolute">
+                    <p class="rounded rounded-pill bg-white py-1 px-2 get-off">Get 20% off</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 col-12 my-4">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                  <div class="popular-products-pic">
+                    <img src="/assests/images/3 (1).png" alt="" class="img-fluid">
+                    <div class="popular-pic-btn">
+                      <button
+                        class=" bg-dark text-white rounded rounded-pill border border-5 px-4 py-2 border-white">Quick
+                        View</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <h5>Cozy Knit Cardigan Sweater</h5>
+                      </div>
+                      <div class="col-2">
+                        <h5>80$</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-absolute">
+                    <p class="rounded rounded-pill bg-white py-1 px-2 get-off">Get 20% off</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="row">
+              <div class="col-md-6 col-lg-3 col-12 my-4">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                  <div class="popular-products-pic">
+                    <img src="/assests/images/banner-media.png" alt="" class="img-fluid">
+                    <div class="popular-pic-btn">
+                      <button
+                        class=" bg-dark text-white rounded rounded-pill border border-5 px-4 py-2 border-white">Quick
+                        View</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <h5>Cozy Knit Cardigan Sweater</h5>
+                      </div>
+                      <div class="col-2">
+                        <h5>80$</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-absolute">
+                    <p class="rounded rounded-pill bg-white py-1 px-2 get-off">Get 20% off</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 col-12 my-4">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                  <div class="popular-products-pic">
+                    <img src="/assests/images/2 (2).png" alt="" class="img-fluid">
+                    <div class="popular-pic-btn">
+                      <button
+                        class=" bg-dark text-white rounded rounded-pill border border-5 px-4 py-2 border-white">Quick
+                        View</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <h5>Cozy Knit Cardigan Sweater</h5>
+                      </div>
+                      <div class="col-2">
+                        <h5>80$</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-absolute">
+                    <p class="rounded rounded-pill bg-white py-1 px-2 get-off">Get 20% off</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 col-12 my-4">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                  <div class="popular-products-pic">
+                    <img src="/assests/images/4 (1).png" alt="" class="img-fluid">
+                    <div class="popular-pic-btn">
+                      <button
+                        class=" bg-dark text-white rounded rounded-pill border border-5 px-4 py-2 border-white">Quick
+                        View</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <h5>Cozy Knit Cardigan Sweater</h5>
+                      </div>
+                      <div class="col-2">
+                        <h5>80$</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-absolute">
+                    <p class="rounded rounded-pill bg-white py-1 px-2 get-off">Get 20% off</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <div class="row">
+              <div class="col-md-6 col-lg-3 col-12 my-4">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                  <div class="popular-products-pic">
+                    <img src="/assests/images/banner-media.png" alt="" class="img-fluid">
+                    <div class="popular-pic-btn">
+                      <button
+                        class=" bg-dark text-white rounded rounded-pill border border-5 px-4 py-2 border-white">Quick
+                        View</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <h5>Cozy Knit Cardigan Sweater</h5>
+                      </div>
+                      <div class="col-2">
+                        <h5>80$</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-absolute">
+                    <p class="rounded rounded-pill bg-white py-1 px-2 get-off">Get 20% off</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 col-12 my-4">
+                <div class="position-relative d-flex justify-content-center align-items-center">
+                  <div class="popular-products-pic">
+                    <img src="/assests/images/2 (2).png" alt="" class="img-fluid">
+                    <div class="popular-pic-btn">
+                      <button
+                        class=" bg-dark text-white rounded rounded-pill border border-5 px-4 py-2 border-white">Quick
+                        View</button>
+                    </div>
+                    <div class="row">
+                      <div class="col-10">
+                        <h5>Cozy Knit Cardigan Sweater</h5>
+                      </div>
+                      <div class="col-2">
+                        <h5>80$</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="position-absolute">
+                    <p class="rounded rounded-pill bg-white py-1 px-2 get-off">Get 20% off</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-outware" role="tabpanel" aria-labelledby="nav-contact-tab">Outware</div>
+            <div class="tab-pane fade" id="nav-Jacket" role="tabpanel" aria-labelledby="nav-contact-tab">Jacket</div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!------------------------------------ most popular products area ended  ------------------------------------>
+
+  <!------------------------------------ summer sale section started ------------------------------------>
+  <section>
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-6 p-0">
+       <div class="">
+        <img src="/assests/images/product1.png" alt="" class="img-fluid">
+        <div class="summer-sale-box">
+          <img src="/assests/images/shap.svg" alt="" class="img-fluid">
+          <div class="summer-box-txt text-center">
+            <h4 class="summer-box-saleupto">Sale upto 50% off</h4>
+            <h1 class="summer-box-summer">Summer</h1>
+            <h1 class="summer-box-2023">2023</h1>
+            <div class="hero-btns-summer-sale">
+              <a class='btn-job-1' href=''>
+                <span class=""></span>
+                <button class=" ">Shop Now</button>
+              </a>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-6 p-0">
+        <div class="">
+          <img src="/assests/images/product2.png" alt="" class="img-fluid">
+          <div class="new-summer-sale">
+            <h4>Sale upto 50% off</h4>
+            <h1 class="summer-sale-collection-txt">New Summer <br> Collection</h1>
+            <button class="px-5 py-2 bg-dark text-white rounded">Shop Now</button>
+          </div>
+        </div>
+      </div>
+     </div>
+   </div>
+  </section>
+  <!------------------------------------ summer sale section ended ------------------------------------>
+
+
+  <!--------------------------------------- similar profile section started --------------------------------------->
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col-lg-5 col-md-12 col-12 my-5">
+       <div class="smilar-profile-pic ">
+        <img src="/assests/images/pic3.jpg" alt="" class="img-fluid">
+       </div>
+      </div>
+      <div class="col-md-12 col-lg-7 col-12 px-md-5 px-lg-5 px-3">
+       <div class="row">
+        <div class="col-9 mt-md-5 mt-sm-0 mt-5 ">
+          <div class="">
+            <h1>Users Who Viewed This Also Checked Out These Similar Profiles</h1>
+          </div>
+        </div>
+        <div class="col-3 d-md-none d-lg-block d-none mt-5">
+          <div class="circle-container-2">
+            <a href="">
+              <div class="text-on-circle text-dark ">
+                <span>M</span>
+                <span>O</span>
+                <span>R</span>
+                <span>E</span>
+                <span> </span>
+                <span>C</span>
+                <span>O</span>
+                <span>L</span>
+                <span>L</span>
+                <span>E</span>
+                <span>C</span>
+                <span>T</span>
+                <span>I</span>
+                <span>O</span>
+                <span>N</span>
+                <span> </span>
+                <span>E</span>
+                <span>X</span>
+                <span>P</span>
+                <span>L</span>
+                <span>O</span>
+                <span>R</span>
+                <span>E</span>
+                <span></span>
+                <span></span>
+                <i class="fa fa-youtube-play ffff" aria-hidden="true"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-4 col-lg-4 col-6">
+            <div class="">
+              <img src="/assests/images/3 (1).png" alt="" class="img-fluid border-radius">
+              <div class="d-flex justify-content-between fs-15 mt-1">
+                <p class="text-danger">Upto 79% off</p>
+                <p>80 $</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-6">
+            <div class="">
+              <img src="/assests/images/2 (2).png" alt="" class="img-fluid border-radius">
+              <div class="d-flex justify-content-between fs-15 mt-1">
+                <p class="text-danger">Upto 79% off</p>
+                <p>80 $</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-6">
+            <div class="">
+              <img src="/assests/images/banner-media.png" alt="" class="img-fluid border-radius">
+              <div class="d-flex justify-content-between fs-15 mt-1">
+                <p class="text-danger">Upto 79% off</p>
+                <p>80 $</p>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+  <!--------------------------------------- similar profile section ended --------------------------------------->
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <!---------------- OWL Carousal JS -------------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 100,
+      arrows: true,
+      nav: false,
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      stagePadding: 0,
+      responsive: {
+        0: {
+          items: 2,
+        },
+        800: {
+          items: 2,
+        },
+
+        1000: {
+          items: 2,
+        },
+        1400: {
+          items: 4,
+        },
+      },
+    });
+  </script>
+
+  <script>
+    // Get the circle element
+    var circle = document.getElementById("circle");
+
+    // Set background color for top half (white)
+    circle.style.background = "linear-gradient(180deg, white 50%, black 50%)";
+
+
+  </script>
+</body>
+
+</html>
